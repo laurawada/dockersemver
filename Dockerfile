@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-CMD echo "Ui!"
+CMD echo "Olá, mundo!"
