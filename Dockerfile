@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-CMD echo "Corrigindo erro!"
+CMD echo "HELLO WORLDDD"
