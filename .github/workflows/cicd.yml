@@ -25,7 +25,7 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/docker-semver:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/docker-semver:${{ github.ref_name }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/docker-semver:${{ github.ref_name#v }}
 
       - name: Docker Publish SemVer Tags
         uses: flownative/action-docker-publish-semver@v1.2.0
